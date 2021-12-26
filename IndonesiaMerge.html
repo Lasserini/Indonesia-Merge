@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesia Merge Helper</title>
+    <script src="IndonesiaMerge.js"></script>
+</head>
+
+<body>
+  <h1>Indonesia Merge Calculator</h1>
+    <p>Welcome to this little Indonesia helper<br>
+        <br>
+        1. Enter the number of goods/ships each player owns before the merge<br>
+        2. Click on the company type(/s) being merged
+    </p>
+
+
+<div class="GoodsInput">
+  <label for="p1Input">Player 1 goods/ships</label><br>
+  <input type="text" id="p1Input"><br>
+  <label for="p2input">Player 2 goods/ships</label><br>
+  <input type="text" id="p2Input">
+</div>
+
+
+<div class="ImageButtons">
+  <br>
+    <input type="image" src="https://i.imgur.com/J3zpsF1.png" onclick="setGoodPrice('shipping')"/>
+    <input type="image" src="https://i.imgur.com/L09R9YQ.png" onclick="setGoodPrice('rice')"/>
+    <input type="image" src="https://i.imgur.com/3AQJRgS.png" onclick="setGoodPrice('spice')"/>
+    <input type="image" src="https://i.imgur.com/17zHY65.png" onclick="setGoodPrice()"/>
+    <input type="image" src="https://i.imgur.com/C4aEZYC.png" onclick="setGoodPrice('rubber')"/>
+    <input type="image" src="https://i.imgur.com/9uWmquz.png" onclick="setGoodPrice('siapFaji1')"/>
+    <input type="image" src="https://i.imgur.com/k0Xy4Bv.png" onclick="setGoodPrice('oil')"/>
+</div>
+
+
+<table id="BidOutputTable", border>
+  <br>
+      <tr>
+       <th scope="col">Bid Options</th>
+       <th scope="col">Player 1 Payout</th>
+       <th scope="col">Player 2 Payout</th>
+     </tr>
+
+
+<div>
+  <button onclick="bidTableMore()">Show More</button>
+</div>
+
+
+</body>
+</html>
+
+
